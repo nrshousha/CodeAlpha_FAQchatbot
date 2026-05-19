@@ -2,6 +2,9 @@
 
 A conversational chatbot that answers frequently asked questions about an art studio. Built with Python, NLTK, scikit-learn, and Streamlit.
 
+<img width="1439" height="688" alt="Screenshot 2026-05-19 at 11 33 36 PM" src="https://github.com/user-attachments/assets/127f7631-f378-4b6f-a441-f7f5e1e602aa" />
+
+
 ## What it does
 
 The chatbot takes a user's question, preprocesses it using NLP techniques, and matches it against a set of predefined FAQs using TF-IDF vectorization and cosine similarity. The most relevant answer is returned as a chat response.
