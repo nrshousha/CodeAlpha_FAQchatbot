@@ -1,5 +1,8 @@
 import streamlit as st
 from matching.matcher import get_best_answer
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 st.set_page_config(page_title="Art Studio Assistant", page_icon="🎨")
 st.title("🎨 Art Studio Chatbot")
